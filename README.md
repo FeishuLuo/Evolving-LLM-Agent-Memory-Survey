@@ -525,5 +525,142 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
     > Treats stored reasoning traces as a scalable bank of experience that powers self-evolving agents.
 
 ---
+### 📊 Benchmarks & Datasets
 
-##
+#### Storage Stage
+
+- [LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding](https://arxiv.org/abs/2308.14508) (2023) `Arxiv`
+
+    > Provides a bilingual, multitask benchmark to evaluate how well models store and use long textual context.
+
+- [LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-Context Multitasks](https://arxiv.org/abs/2412.15204) (2024) `Arxiv`
+
+    > Extends LongBench with more realistic tasks to stress-test long-context memory and reasoning.
+
+- [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654) (2024) `Arxiv`
+
+    > Benchmarks the effective context window of long-context LMs, revealing how much past information they truly remember.
+
+- [Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models](#) (2024) `*NAACL`
+
+    > Evaluates multimodal models’ ability to retrieve “needle” signals from very long mixed-text–image memories.
+
+- [HotpotQA: A Dataset for Diverse, Explainable Multi-Hop Question Answering](#) (2018) `*EMNLP`
+
+    > Serves as an early benchmark for multi-hop reasoning over multiple documents, stressing cross-document memory.
+
+- [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) (2023) `Arxiv`
+
+    > Includes datasets and evaluations for how well long-term memory modules help dialog agents remember users.
+
+- [BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack](https://arxiv.org/abs/2406.10149) (2024) `Arxiv`
+
+    > Creates synthetic long-context tasks to probe how far LLM reasoning-in-a-haystack memory can scale.
+
+- [DialSim: A Real-Time Simulator for Evaluating Long-Term Dialogue Understanding of Conversational Agents](https://arxiv.org/abs/2406.13144) (2024) `Arxiv`
+
+    > Provides a simulator to benchmark agents’ long-term dialogue memory and context tracking in real time.
+
+- [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) (2024) `Arxiv`
+
+    > Proposes evaluation setups focused specifically on how agents retain and use very long-term conversational memories.
+
+- [Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs](https://arxiv.org/abs/2510.27246) (2025) `Arxiv`
+
+    > Benchmarks LLM memory beyond million-token contexts and studies methods to enhance such ultra-long memory.
+
+- [Explicit v.s. Implicit Memory: Exploring Multi-Hop Complex Reasoning over Personalized Information](https://arxiv.org/abs/2508.13250) (2025) `Arxiv`
+
+    > Compares benchmarks for explicit vs. implicit memory in multi-hop reasoning over personalized user information.
+
+- [Evaluating the Long-Term Memory of Large Language Models](#) (2025) `*ACL`
+
+    > Presents a dedicated benchmark protocol to measure the long-term memory capabilities of LLMs.
+
+- [MADial-Bench: Towards Real-World Evaluation of Memory-Augmented Dialogue Generation](#) (2024) `*NAACL`
+
+    > Benchmarks memory-augmented dialogue systems on realistic multi-session conversational scenarios.
+
+- [HELMET: How to Evaluate Long-Context Language Models Effectively and Thoroughly](https://arxiv.org/abs/2410.02694) (2024) `Arxiv`
+
+    > Proposes a comprehensive evaluation framework for long-context LMs, covering storage, retrieval, and usage of context.
+
+#### Reflection Stage
+
+- [Minerva: A Programmable Memory Test Benchmark for Language Models](https://arxiv.org/abs/2502.03358) (2025) `Arxiv`
+
+    > Offers programmable tasks to test whether models can follow precise memory read–write operations.
+
+- [HaluMem: Evaluating Hallucinations in Memory Systems of Agents](https://arxiv.org/abs/2511.03506) (2025) `Arxiv`
+
+    > Benchmarks how often and how severely agents hallucinate when reading or updating their memories.
+
+- [Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions](https://arxiv.org/abs/2507.05257) (2025) `Arxiv`
+
+    > Designs incremental multi-turn tasks to evaluate memory retention and update dynamics in agents.
+
+- [Personalized Large Language Model Assistant with Evolving Conditional Memory](#) (2023) `*COLING`
+
+    > Introduces datasets and setups for evaluating assistants with evolving, conditional personalized memory.
+
+- [PersonaMem-v2: Towards Personalized Intelligence via Learning Implicit User Personas and Agentic Memory](#) (2025) `Arxiv`
+
+    > Benchmarks systems that infer implicit user personas and maintain agentic memory for personalization.
+
+- [Evaluating Very Long-Term Conversational Memory of LLM Agents](https://arxiv.org/abs/2402.17753) (2024) `Arxiv`
+
+    > (Same paper) Used here as a reflection-stage benchmark of conversational memory consistency over time.
+
+- [WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks](https://arxiv.org/abs/2506.01952) (2025) `Arxiv`
+
+    > Benchmarks web agents on long, tedious tasks that require remembering intermediate states across pages.
+
+- [On the Multi-Turn Instruction Following for Conversational Web Agents](#) (2024) `*ACL`
+
+    > Evaluates whether web agents can follow instructions over many turns while maintaining relevant memory.
+
+- [StoryBench: A Dynamic Benchmark for Evaluating Long-Term Memory with Multi Turns](https://arxiv.org/abs/2506.13356) (2025) `Arxiv`
+
+    > Uses evolving stories to test agents’ ability to track and recall long-term narrative information.
+
+- [PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering](https://arxiv.org/abs/2402.16288) (2024) `Arxiv`
+
+    > Provides a dataset to benchmark classification, retrieval, and synthesis over personal long-term memories.
+
+- [Toward Multi-Session Personalized Conversation: A Large-Scale Dataset and Hierarchical Tree Framework for Implicit Reasoning](https://arxiv.org/abs/2503.07018) (2025) `Arxiv`
+
+    > Benchmarks multi-session dialogues that require implicit reasoning over long-lived user memory.
+
+- [SHARE: Shared Memory-Aware Open-Domain Long-Term Dialogue Dataset Constructed from Movie Script](https://arxiv.org/abs/2410.20682) (2024) `Arxiv`
+
+    > Builds a long-term dialogue dataset grounded in movie scripts to study shared memory among agents.
+
+- [Mem-PAL: Towards Memory-Based Personalized Dialogue Assistants for Long-Term User-Agent Interaction](#) (2025) `Arxiv`
+
+    > Provides benchmarks for personalized dialogue assistants that rely heavily on long-term memory.
+
+- [Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs](https://arxiv.org/abs/2502.09597) (2025) `Arxiv`
+
+    > Evaluates how well LLMs remember and follow user preferences across interactions.
+
+- [Do LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits](https://arxiv.org/abs/2510.17132) (2025) `Arxiv`
+
+    > Benchmarks self-awareness by testing whether models can anticipate failures rooted in their own memory limits.
+
+#### Experience Stage
+
+- [StreamBench: Towards Benchmarking Continuous Improvement of Language Agents](https://arxiv.org/abs/2406.08747) (2024) `Arxiv`
+
+    > Benchmarks agents’ ability to improve over a stream of tasks, focusing on how experience accumulates as memory.
+
+- [MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems](https://arxiv.org/abs/2510.17281) (2025) `Arxiv`
+
+    > Provides standardized tasks and metrics for evaluating memory and continual learning in LLM systems.
+
+- [Evo-Memory: Benchmarking LLM Agent Test-Time Learning with Self-Evolving Memory](#) (2025) `Arxiv`
+
+    > Evaluates test-time learning setups where agents’ memories evolve during deployment.
+
+- [LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners](https://arxiv.org/abs/2505.11942) (2025) `Arxiv`
+
+    > Benchmarks LLM agents on lifelong learning scenarios that stress long-term experience and memory reuse.
