@@ -585,6 +585,18 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 
     > Proposes a comprehensive evaluation framework for long-context LMs, covering storage, retrieval, and usage of context.
 
+- [AgentLongBench: A Controllable Long Benchmark For Long-Contexts Agents via Environment Rollouts](https://arxiv.org/abs/2601.20730) (2026) `Arxiv`
+
+    > Evaluates LLM agents' ability to handle dynamic, evolving long contexts through simulated environment rollouts, exposing struggles with dynamic information synthesis despite proficiency at static retrieval.
+
+- [LoCoBench-Agent: An Interactive Benchmark for LLM Agents in Long-Context Software Engineering](https://arxiv.org/abs/2511.13998) (2025) `Arxiv`
+
+    > Evaluates LLM agents in realistic long-context software engineering workflows with multi-turn interactive conversations, tool usage, and error recovery across context lengths from 10K to 1M tokens.
+
+- [MemoryRewardBench: Benchmarking Reward Models for Long-Term Memory Management in Large Language Models](https://arxiv.org/abs/2601.11969) (2026) `Arxiv`
+
+    > Benchmarks 13 reward models on their ability to evaluate intermediate long-term memory management quality across 10 settings with context lengths from 8K to 128K tokens.
+
 #### Reflection Stage
 
 - [Minerva: A Programmable Memory Test Benchmark for Language Models](https://arxiv.org/abs/2502.03358) (2025) `Arxiv`
@@ -647,6 +659,23 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 
     > Benchmarks self-awareness by testing whether models can anticipate failures rooted in their own memory limits.
 
+- [ConvoMem Benchmark: Why Your First 150 Conversations Don't Need RAG](https://arxiv.org/abs/2511.10523) (2025) `Arxiv`
+
+    > Benchmarks conversational memory with 75,336 QA pairs across user facts, assistant recall, preferences, and temporal changes, finding simple full-context approaches outperform RAG-based memory systems for early conversations.
+
+- [KnowMe-Bench: Benchmarking Person Understanding for Lifelong Digital Companions](https://arxiv.org/abs/2601.04745) (2026) `Arxiv`
+
+    > Benchmarks person understanding from long-form autobiographical narratives with evidence-linked questions spanning factual recall, subjective state attribution, and principle-level reasoning.
+
+- [RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction](https://arxiv.org/abs/2601.06966) (2026) `Arxiv`
+
+    > Benchmarks LLM memory systems in realistic long-term project-oriented interactions with over 2,000 cross-session dialogues, revealing struggles with dynamic state evolution and proactive contextual alignment.
+
+- [StructMemEval: Evaluating Memory Structure in LLM Agents](https://arxiv.org/abs/2602.11243) (2026) `Arxiv`
+
+    > Benchmarks LLM agents' ability to organize long-term memory into appropriate structures (ledgers, to-do lists, trees), finding that agents succeed only when explicitly prompted on structure.
+
+
 #### Experience Stage
 
 - [StreamBench: Towards Benchmarking Continuous Improvement of Language Agents](https://arxiv.org/abs/2406.08747) (2024) `Arxiv`
@@ -664,3 +693,16 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 - [LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners](https://arxiv.org/abs/2505.11942) (2025) `Arxiv`
 
     > Benchmarks LLM agents on lifelong learning scenarios that stress long-term experience and memory reuse.
+
+- [AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications](https://arxiv.org/abs/2602.22769) (2026) `Arxiv`
+
+    > Benchmarks long-horizon memory systems for LLM agents in real agentic applications (web navigation, code editing, web search), revealing that existing systems underperform due to lack of causality-aware retrieval.
+
+- [MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments](https://arxiv.org/abs/2510.01353) (2025) `*NeurIPS Workshop`
+
+    > Benchmarks long-term memory and state tracking across multi-platform enterprise environments (Slack, Linear, Git) with chronologically interleaved, noisy, conflicting information.
+
+- [MemoryArena: Benchmarking Agent Memory in Interdependent Multi-Session Agentic Tasks](https://arxiv.org/abs/2602.16313) (2026) `Arxiv`
+
+    > Evaluates agent memory in multi-session Memory-Agent-Environment loops with interdependent subtasks, revealing that agents with near-saturated performance on existing benchmarks perform poorly in agentic settings.
+
