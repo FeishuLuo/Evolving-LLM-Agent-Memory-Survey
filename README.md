@@ -1,4 +1,4 @@
-# Frome-Memory-to-Experience
+# Evolving-LLM-Agent-Memory-Survey
 Paper list for "From Storage to Experience: A Survey on the Evolution of LLM Agent Memory Mechanisms".
 
 ## 📖 Introduction
