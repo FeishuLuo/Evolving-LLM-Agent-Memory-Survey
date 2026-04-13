@@ -235,6 +235,10 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [Scaling Long-Horizon LLM Agent via Context-Folding](https://arxiv.org/abs/2510.11967) | arXiv | 2025 |
 | [DeepAgent: A General Reasoning Agent with Scalable Toolsets](https://arxiv.org/abs/2510.21618) | arXiv | 2025 |
 | [AgentFold: Long-Horizon Web Agents with Proactive Context Management](https://arxiv.org/abs/2510.24699) | arXiv | 2025 |
+| [Structured Distillation for Personalized Agent Memory: 11x Token Reduction](https://arxiv.org/abs/2603.13017) | arXiv | 2026 |
+| [Trajectory-Informed Memory Generation for Self-Improving Agent Systems](https://arxiv.org/abs/2603.10600) | arXiv | 2026 |
+| [ParamMem: Augmenting Language Agents with Parametric Reflective Memory](https://arxiv.org/abs/2602.23320) | arXiv | 2026 |
+| [MEMO: Memory-Augmented Model Context Optimization for Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022) | arXiv | 2026 |
 
 #### Environment
 
@@ -247,6 +251,10 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [DEAL: Enhancing Agent Learning through World Dynamics Modeling](https://arxiv.org/abs/2407.17695) | arXiv | 2024 |
 | [ToolMem: Enhancing Multimodal Agents with Learnable Tool Capability Memory](https://arxiv.org/abs/2510.06664) | arXiv | 2025 |
 | [Preference-Aware Memory Update for Long-Term LLM Agents](https://arxiv.org/abs/2510.09720) | arXiv | 2025 |
+| [Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework](https://arxiv.org/abs/2604.02734) | arXiv | 2026 |
+| [OBLIVION: Self-Adaptive Agentic Memory Control through Decay-Driven Activation](https://arxiv.org/abs/2604.00131) | arXiv | 2026 |
+| [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549) | arXiv | 2026 |
+| [Governing Evolving Memory in LLM Agents: The SSGM Framework](https://arxiv.org/abs/2603.11768) | arXiv | 2026 |
 
 **Decision Optimization**
 
@@ -267,6 +275,9 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [MAR: Multi-Agent Reflexion Improves Reasoning Abilities in LLMs](https://arxiv.org/abs/2512.20845) | arXiv | 2025 |
 | [MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/abs/2507.07957) | arXiv | 2025 |
 | [Narrative Memory in Machines: Multi-Agent Arc Extraction in Serialized TV](https://arxiv.org/abs/2508.07010) | arXiv | 2025 |
+| [GEMS: Agent-Native Multimodal Generation with Memory and Skills](https://arxiv.org/abs/2603.28088) | arXiv | 2026 |
+| [Scaling Teams or Scaling Time? Memory Enabled Lifelong Learning in Multi-Agent Systems](https://arxiv.org/abs/2604.03295) | arXiv | 2026 |
+| [Collaborative Multi-Agent Optimization for Personalized Memory System](https://arxiv.org/abs/2603.12631) | arXiv | 2026 |
 
 ---
 
@@ -290,6 +301,10 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [FLEX: Continuous Agent Evolution via Forward Learning from Experience](https://arxiv.org/abs/2511.06449) | arXiv | 2025 |
 | [Remember Me, Refine Me: A Dynamic Procedural Memory Framework](https://arxiv.org/abs/2512.10696) | arXiv | 2025 |
 | [LoongFlow: Directed Evolutionary Search via Plan-Execute-Summarize](https://arxiv.org/abs/2512.24077) | arXiv | 2025 |
+| [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716) | arXiv | 2026 |
+| [MemPO: Self-Memory Policy Optimization for Long-Horizon Agents](https://arxiv.org/abs/2603.00680) | arXiv | 2026 |
+| [Towards Autonomous Memory Agents](https://arxiv.org/abs/2602.22406) | arXiv | 2026 |
+| [Structurally Aligned Subtask-Level Memory for Software Engineering Agents](https://arxiv.org/abs/2602.21611) | arXiv | 2026 |
 
 **Procedural Primitives**
 
@@ -315,6 +330,9 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663) | arXiv | 2024 |
 | [MemGen: Weaving Generative Latent Memory for Self-Evolving Agents](https://arxiv.org/abs/2509.24704) | arXiv | 2025 |
 | [LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space](https://arxiv.org/abs/2509.24771) | arXiv | 2025 |
+| [Tell Me What To Learn: Generalizing Neural Memory to be Controllable in Natural Language](https://arxiv.org/abs/2602.23201) | arXiv | 2026 |
+| [ReMem-VLA: Empowering Vision-Language-Action Model with Memory via Dual-Level Recurrent Queries](https://arxiv.org/abs/2603.12942) | arXiv | 2026 |
+| [Think While Watching: Online Streaming Segment-Level Memory for Multi-Turn Video Reasoning](https://arxiv.org/abs/2603.11896) | arXiv | 2026 |
 
 **Parameter Internalization**
 
@@ -344,6 +362,12 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory](https://arxiv.org/abs/2509.25140) | arXiv | 2025 |
 | [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) | arXiv | 2025 |
 | [Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization](https://arxiv.org/abs/2602.23008) | ICLR | 2026 |
+| [Exploratory Memory-Augmented LLM Agent via Hybrid On- and Off-Policy Optimization](https://arxiv.org/abs/2602.23008) | ICLR | 2026 |
+| [ByteRover: Agent-Native Memory Through LLM-Curated Hierarchical Context](https://arxiv.org/abs/2604.01599) | arXiv | 2026 |
+| [MemFactory: Unified Inference & Training Framework for Agent Memory](https://arxiv.org/abs/2603.29493) | arXiv | 2026 |
+| [OMNI-SIMPLEMEM: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory](https://arxiv.org/abs/2604.01007) | arXiv | 2026 |
+| [GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in RAG](https://arxiv.org/abs/2603.01783) | arXiv | 2026 |
+| [MEMRERANK: Preference Memory for Personalized Product Reranking](https://arxiv.org/abs/2603.29247) | arXiv | 2026 |
 
 ---
 
@@ -394,6 +418,8 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [KnowMe-Bench](https://arxiv.org/abs/2601.04745) | arXiv | 2026 | Person understanding from narratives |
 | [RealMem](https://arxiv.org/abs/2601.06966) | arXiv | 2026 | Real-world project-oriented memory |
 | [StructMemEval](https://arxiv.org/abs/2602.11243) | arXiv | 2026 | Memory structure organization |
+| [Beyond the Context Window: Cost-Performance Analysis of Fact-Based Memory vs. Long-Context LLMs](https://arxiv.org/abs/2603.04814) | arXiv | 2026 | Fact-based memory vs. long-context cost tradeoff |
+| [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473) | arXiv | 2026 | Write strategy x retrieval method diagnostics |
 
 ### Experience Stage
 
