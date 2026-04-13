@@ -112,6 +112,19 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 
     > Augments LLMs with an external context memory that retrieves only relevant long-range segments, enabling million-token usage without retraining.
 
+- [LightThinker++: From Reasoning Compression to Memory Management](https://arxiv.org/abs/2604.03679) (2026) `Arxiv`
+
+    > Dynamically compresses intermediate reasoning thoughts into compact semantic representations, with a reversible "memory management" mode that allows re-expansion when logical bottlenecks arise.
+
+- [Understand and Accelerate Memory Processing Pipeline for Disaggregated LLM Inference](https://arxiv.org/abs/2603.29002) (2026) `Arxiv`
+
+    > Unifies sparse attention, RAG, and compressed memory into a four-step pipeline (Prepare → Relevancy → Retrieval → Apply), identifying 22%–97% memory processing overhead and proposing systematic acceleration.
+
+- [MemBoost: A Memory-Boosted Framework for Cost-Aware LLM Inference](https://arxiv.org/abs/2603.26557) (2026) `Arxiv`
+
+    > Enables a lightweight model to reuse previously generated answers from memory, selectively escalating difficult queries to a stronger LLM for significant cost reduction.
+
+
 ---
 
 #### Vector
@@ -129,6 +142,23 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 - [Larimar: Large Language Models with Episodic Memory Control](https://arxiv.org/abs/2403.11901) (2024) `Arxiv`
 
     > Adds a brain-inspired episodic memory layer that can insert, edit, and forget facts, enabling dynamic control over what the model remembers.
+
+- [SelRoute: Query-Type-Aware Routing for Long-Term Conversational Memory Retrieval](https://arxiv.org/abs/2604.02431) (2026) `Arxiv`
+
+    > Routes each query to a specialized retrieval pipeline (lexical, semantic, hybrid, or vocabulary-enriched) based on query type, achieving strong recall with compact models.
+
+- [MemSifter: Offloading LLM Memory Retrieval via Outcome-Driven Proxy Reasoning](https://arxiv.org/abs/2603.03379) (2026) `Arxiv`
+
+    > Introduces a lightweight proxy model to pre-filter memory candidates before the main LLM, balancing retrieval cost and accuracy.
+
+- [TA-Mem: Tool-Augmented Autonomous Memory Retrieval for LLM in Long-Term Conversational QA](https://arxiv.org/abs/2603.09297) (2026) `Arxiv`
+
+    > Treats memory retrieval as a tool-use problem, allowing the LLM to autonomously decide when and how to query its memory via episodic notes and graph representations.
+
+- [EVOKING USER MEMORY:      Personalizing LLM via Recollection-Familiarity Adaptive Retrieval](https://arxiv.org/abs/2603.09250) (2026) `Arxiv`
+
+    > Inspired by dual-process theory in cognitive science, combines fast "Familiarity" matching with deep "Recollection" retrieval for personalized memory access.
+
 
 ##### Weighted Retrieval
 
@@ -180,6 +210,15 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 
     > Wraps an LLM in a recurrent loop that summarizes and stores past content, effectively creating a rolling external memory for arbitrarily long text.
 
+- [Multi-Layered Memory Architectures for LLM Agents](https://arxiv.org/abs/2603.29194) (2026) `Arxiv`
+
+    > Decomposes dialogue history into working, episodic, and semantic layers with adaptive retrieval gating and retention regularization to control cross-session drift.
+
+- [Pancake: Hierarchical Memory System for Multi-Agent LLM Serving](https://arxiv.org/abs/2602.21477) (2026) `Arxiv`
+
+    > A multi-tier memory system unifying multi-level index caching, coordinated cross-agent index management, and collaborative inter-agent memory sharing for efficient ANN search at scale.
+
+
 ##### Semantic Graphs
 
 - [MemLLM: Finetuning LLMs to Use an Explicit Read-Write Memory](https://arxiv.org/abs/2404.11672) (2024) `Arxiv`
@@ -193,6 +232,10 @@ Experience represents the highest cognitive layer, where memory mechanisms compr
 - [GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models](https://arxiv.org/abs/2406.14550) (2024) `*EMNLP`
 
     > Represents long contexts as graphs and lets agents traverse them, turning unstructured history into structured graph memory.
+
+- [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](https://arxiv.org/abs/2603.27277) (2026) `Arxiv`
+
+    > Constructs persistent, language-agnostic knowledge graphs from source code using Tree-Sitter across 66 languages, exposed via Model Context Protocol for structural code understanding.
 
 ---
 
