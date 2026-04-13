@@ -23,36 +23,9 @@
   on the <b>evolutionary framework of LLM agent memory mechanisms</b>.
 </p>
 
-- [LightThinker++: From Reasoning Compression to Memory Management](https://arxiv.org/abs/2604.03679) (2026) `Arxiv`
-
-    > Dynamically compresses intermediate reasoning thoughts into compact semantic representations, with a reversible "memory management" mode that allows re-expansion when logical bottlenecks arise.
-
-- [Understand and Accelerate Memory Processing Pipeline for Disaggregated LLM Inference](https://arxiv.org/abs/2603.29002) (2026) `Arxiv`
-
-    > Unifies sparse attention, RAG, and compressed memory into a four-step pipeline (Prepare → Relevancy → Retrieval → Apply), identifying 22%–97% memory processing overhead and proposing systematic acceleration.
-
-- [MemBoost: A Memory-Boosted Framework for Cost-Aware LLM Inference](https://arxiv.org/abs/2603.26557) (2026) `Arxiv`
-
-    > Enables a lightweight model to reuse previously generated answers from memory, selectively escalating difficult queries to a stronger LLM for significant cost reduction.
-
-
----
-
 > If you find this survey useful, please consider giving us a :star: to stay updated with the latest additions!
 >
 > We welcome contributions! If you know of a relevant paper we missed, please open an [issue](https://github.com/FeishuLuo/Evolving-LLM-Agent-Memory-Survey/issues) or submit a [pull request](https://github.com/FeishuLuo/Evolving-LLM-Agent-Memory-Survey/pulls). See our [Contributing Guidelines](CONTRIBUTING.md).
-
----
-
-## News
-
-- **2026-04** &mdash; Added 10 new papers (LightThinker++, SelRoute, MemSifter, Pancake, etc.) and new 2026 benchmarks
-- **2026-01** &mdash; Paper accepted at **ACL 2026 Findings** and **ICLR 2026 Workshop MemAgents**
-- **2025-01** &mdash; Preprint released &amp; repository created
-
-- [Codebase-Memory: Tree-Sitter-Based Knowledge Graphs for LLM Code Exploration via MCP](https://arxiv.org/abs/2603.27277) (2026) `Arxiv`
-
-    > Constructs persistent, language-agnostic knowledge graphs from source code using Tree-Sitter across 66 languages, exposed via Model Context Protocol for structural code understanding.
 
 ---
 
