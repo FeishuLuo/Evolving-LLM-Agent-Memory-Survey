@@ -320,6 +320,7 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [Contextual Experience Replay for Self-Improvement of Language Agents](https://arxiv.org/abs/2506.06698) | ACL | 2025 |
 | [MemEvolve: Meta-Evolution of Agent Memory Systems](https://arxiv.org/abs/2512.18746) | arXiv | 2025 |
 | [Youtu-Agent: Scaling Agent Productivity with Hybrid Policy Optimization](https://arxiv.org/abs/2512.24615) | arXiv | 2025 |
+| [ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction](https://arxiv.org/abs/2608.20920) | EMNLP Findings | 2026 |
 
 #### Implicit Experience
 
