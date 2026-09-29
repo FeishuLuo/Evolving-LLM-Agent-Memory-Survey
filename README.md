@@ -432,6 +432,7 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [Evo-Memory](https://arxiv.org/abs/2511.20857) | arXiv | 2025 | Test-time self-evolving memory |
 | [MemoryArena](https://arxiv.org/abs/2602.16313) | arXiv | 2026 | Interdependent multi-session agentic tasks |
 | [AMA-Bench](https://arxiv.org/abs/2602.22769) | arXiv | 2026 | Long-horizon agentic memory |
+| [EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks](https://arxiv.org/abs/2609.28236) | arXiv | 2026 | Interactive embodied memory: state tracking, interaction outcomes, and experience generalization |
 
 ---
 
