@@ -305,6 +305,7 @@ Storage serves as the cornerstone of memory evolution, emphasizing the faithful 
 | [MemPO: Self-Memory Policy Optimization for Long-Horizon Agents](https://arxiv.org/abs/2603.00680) | arXiv | 2026 |
 | [Towards Autonomous Memory Agents](https://arxiv.org/abs/2602.22406) | arXiv | 2026 |
 | [Structurally Aligned Subtask-Level Memory for Software Engineering Agents](https://arxiv.org/abs/2602.21611) | arXiv | 2026 |
+| [Who Remembers What? Multi-Granularity Memory Extraction for Multi-User, Multi-Agent Interaction](https://arxiv.org/abs/2611.10439) | arXiv | 2026 |
 
 **Procedural Primitives**
 
